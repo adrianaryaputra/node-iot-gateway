@@ -1,0 +1,24 @@
+{
+  "name": "iot-gateway",
+  "version": "1.0.0",
+  "description": "a gateway to handle multiple IoT protocol",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ad",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mqtt": "^0.0.34",
+    "@types/uuid": "^10.0.0",
+    "modbus-serial": "^8.0.17",
+    "mqtt": "^5.10.1",
+    "uuid": "^11.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
