@@ -1,9 +1,9 @@
 import { SerialPort } from 'serialport';
 import { PortInfo } from '@serialport/bindings-interface';
-import { DevicePortInfo } from './port_info.interface';
+import { DevicePortInfo } from './serialport.interface';
 
 // device port driver
-class DevicePorts {
+class SerialportDriver {
     ports: PortInfo[] = [];
 
     /**
@@ -32,4 +32,4 @@ class DevicePorts {
     }
 }
 
-export var devicePorts = new DevicePorts()
+export var serialportDriver = new SerialportDriver()

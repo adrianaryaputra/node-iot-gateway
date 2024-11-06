@@ -3,7 +3,7 @@ import { MQTTTopic } from "./inapp_mqtt.interface";
 import { v4 as uuidv4 } from 'uuid';
 
 // DRIVER LOAD
-import { devicePorts } from "../../driver/port/port_serial";
+import { serialportDriver } from "../../driver/serialport/serialport";
 
 export class InAppMQTTHandler {
 
